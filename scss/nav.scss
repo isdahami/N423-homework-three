@@ -1,0 +1,30 @@
+.nav-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #9a0d05;
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img {
+      height: 4rem;
+    }
+    .nav-logo-txt {
+      color: #fff;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  }
+  .nav-links {
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
